@@ -1,0 +1,61 @@
+
+<button ion-button round class="middle1"></button>
+    <button ion-button round class="middle2"></button>
+    <button ion-button round class="middle3"></button>
+    <button ion-button round class="middle4"></button>
+    <button ion-button round class="middle5"></button>
+    <button ion-button round class="middle6"></button>
+    <ion-segment>
+        <ion-segment-button >all
+        </ion-segment-button>
+        <ion-segment-button >movies
+        </ion-segment-button>
+        <ion-segment-button>tvshows
+        </ion-segment-button>
+        
+      </ion-segment>
+      <div class="dropdown">
+          <button ion-button round (click)="list()" class="filter"> Advanced filters</button>
+          <div class="list" *ngIf="show">
+            <h4>LANGUAGE</h4>
+            
+            <button ion-button class="name" type="submit">English
+              
+            </button>
+            <button ion-button class="name" type="submit">Hindi
+              
+            </button>
+            <button ion-button class="name" type="submit" >Telugu
+              
+            </button>
+            <button ion-button class="name" type="submit" >Tamil
+              
+            </button>
+            <button ion-button class="name" type="submit">Malayalam
+              
+            </button>
+            <button ion-button class="name" type="submit" >Kannada
+              
+            </button>
+            <button ion-button class="name" type="submit" >Bengali
+              
+            </button>
+            <button ion-button class="name" type="submit" >Marathi
+              
+            </button>
+           
+           <h4>GENRE</h4>
+           <button ion-button class="name" type="submit">Action
+              
+          </button>
+          <button ion-button class="name" type="submit">Adventure</button>
+          <button ion-button class="name" type="submit">Comedy</button>
+          <button ion-button class="name" type="submit">Thriller</button>
+          <button ion-button class="name" type="submit">Drama</button>
+          <h4>RELEASE YEAR</h4>
+          1981<input type="range" min="1981" max="2018" value="2000" class="slider" >
+          <input type="range" min="1981" max="2018" value="2000" class="slider1">2018
+          </div>
+                    
+        </div>
+       

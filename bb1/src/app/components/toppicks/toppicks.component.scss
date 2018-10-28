@@ -1,0 +1,40 @@
+.toppick{
+  position:absolute;
+  top:130%;
+  
+  }
+.toppick img{
+  filter:brightness(50%);
+  background-color:beige;
+}
+h3{
+  color:#fff;
+  font-size:14px;
+  margin-left: 20px;
+}
+h6{
+  color:white;
+  font-size:12px;
+  font-family:sans-serif;
+  transform:translate(200px,910px);
+  
+}
+p{
+  color:white;
+  font-size: 12px;
+  font-family:sans-serif;
+  transform:translate(200px,910px);
+}
+h5{
+  transform:translate(600px,740px);
+  color:white;
+  font-family: sans-serif;
+}
+strong{
+  color:white;
+  position:absolute;
+  transform:translate(200px,830px);
+  
+  font-size: 24px;
+  font-family: oswald Regular;
+}

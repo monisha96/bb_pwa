@@ -1,0 +1,68 @@
+strong{
+    color:white;
+    position:absolute;
+    right:50%;
+    margin-top:250px;
+    font-size: 32px;
+    font-family: oswald Regular;
+    filter:brightness(100%);
+   
+  }
+  
+  img{
+      width:100%;
+    
+      height:700px;
+     
+  }
+.describe{
+  transform:translateY(-100px);
+  background-color: black;
+  height:800px;
+}
+  
+
+h6{
+  color:white;
+  font-size:12px;
+  font-family:sans-serif;
+  transform:translateY(-110px);
+  margin-left: 370px;
+  font-weight: bold;
+}
+p{
+  color:white;
+  font-size: 12px;
+  font-family:sans-serif;
+  position: absolute;
+  margin-left: 370px;
+  transform:translateY(-100px);
+}
+h5{
+  
+  color:white;
+  font-family: sans-serif;
+  margin-left: 370px;
+  position: absolute;
+  font-size:12px;
+  font-weight: bold;
+  transform:translateY(-250px);
+}
+ion-content{
+  --ion-background-color:var(--background)!important;
+}
+h4{
+  color:white;
+  font-size:12px;
+  font-family:sans-serif;
+
+  margin-left: 370px;
+  font-weight: bold; 
+}
+.moviedir{
+  width:150px;
+  height:200px;
+  margin-left: 370px;
+  
+
+}

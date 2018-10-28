@@ -1,0 +1,56 @@
+<ion-header>
+
+
+
+  <ion-navbar >
+
+
+  
+      
+      <div class="header-area" textwrap>
+<a class="open" (click)="open()">☰</a>
+<div class="nav-res" *ngIf="menu">
+  <a class="item" (click)="goToMovie()">
+      MOVIES
+    </a>
+    <a class="item">
+      TVSHOWS
+    </a>
+    <a class="item">
+      WEBSERIES
+    </a>
+    <a class="item">
+      WATCHLIST
+    </a>
+
+  </div>
+    
+    <div class="tabs tabs-icon-left">
+        <strong class="logo1">BINGE</strong>
+        <strong class="logo2">BUCKET</strong>
+       
+            <a class="tab-item1" (click)="goToMovie()">
+          MOVIES
+        </a>
+        <a class="tab-item">
+          TVSHOWS
+        </a>
+        <a class="tab-item">
+          WEBSERIES
+        </a>
+        <a class="tab-last">
+          WATCHLIST
+        </a>
+    
+        <input type="text" name="search" class="search-container">
+      
+      
+      </div>
+
+    </div>
+
+
+  </ion-navbar>
+
+
+</ion-header>
